@@ -25,5 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^swagger/', schema_view),
     url(r'^api-auth/', include('rest_framework.urls')),
-    url(r'^apiby/', include('student.urls')),
+    url(r'^api/', include('student.urls')),
 ]

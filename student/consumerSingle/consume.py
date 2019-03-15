@@ -20,4 +20,4 @@ class StudentREST:
 
 if __name__ == '__main__':
     s=StudentREST()
-    s.getAllStudent()
+    s.addStudent({'id':6, 'name': 'priti11', 'city': 'pune2', 'age': 3})

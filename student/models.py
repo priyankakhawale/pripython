@@ -9,5 +9,6 @@ class Student(models.Model):
     city = models.CharField(max_length=200,default='')
     age = models.IntegerField()
 
+
     class Meta:
         db_table='Student_Info'
